@@ -434,6 +434,8 @@ typedef enum RATreeViewRowAnimation {
 
 @interface RATreeView : UIView
 
+@property (nonatomic, strong) UITableView *tableView;
+
 ///------------------------------------------------
 /// @name Initializing a RATreeView Object
 ///------------------------------------------------
